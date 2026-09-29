@@ -107,6 +107,12 @@ a:hover { text-decoration: underline; }
 .store-badge small { font-size: 11px; letter-spacing: 0.02em; }
 .store-badge strong { font-size: 21px; font-weight: 600; letter-spacing: -0.01em; }
 
+.store-soon {
+  display: inline-flex; align-items: center; min-height: 48px; padding: 0 20px;
+  border-radius: 999px; background: var(--bg-soft); color: var(--text-2);
+  font-size: 17px; font-weight: 600;
+}
+
 .link-arrow { font-size: 17px; }
 .link-arrow::after { content: " \203A"; }
 
