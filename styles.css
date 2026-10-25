@@ -107,6 +107,9 @@ a:hover { text-decoration: underline; }
 .store-badge small { font-size: 11px; letter-spacing: 0.02em; }
 .store-badge strong { font-size: 21px; font-weight: 600; letter-spacing: -0.01em; }
 
+/* Apple's official badge, unaltered; Apple asks for clear space of a quarter of its height around it. */
+.store-link { display: inline-block; padding: 13px 0; line-height: 0; }
+.store-link img { height: 52px; width: auto; display: block; }
 .store-soon {
   display: inline-flex; align-items: center; min-height: 48px; padding: 0 20px;
   border-radius: 999px; background: var(--bg-soft); color: var(--text-2);
